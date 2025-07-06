@@ -1,4 +1,4 @@
-import {HeroContent} from "./content_types";
+export type HeroContent = { header: string, description: string }
 
 export const heroContent1: HeroContent = {
     header: 'Automatyzacja Przyszłości',

@@ -1,0 +1,34 @@
+@import "Hero_bg-url.css";
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 160px;
+}
+
+.foreground {
+    position: relative;
+    z-index: 10;
+    padding: 20px;
+}
+
+.background {
+    position: absolute;
+    inset: 0;
+    background-image: var(--hero-bg-url);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+.heading {
+    font-family: Doto, sans-serif;
+    padding-bottom: 30px;
+    text-shadow: 1px 1px 8px black;
+}
+
+.description {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-shadow: 1px 1px 8px black;
+}

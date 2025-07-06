@@ -1,16 +1,17 @@
 import {DropdownMenu, Flex, Link, Text} from '@radix-ui/themes';
 import React, {ReactElement, ReactNode} from 'react';
 import {PersonIcon} from "@radix-ui/react-icons";
+import styles from './Navbar.module.css';
 
 const Navbar: () => ReactElement = () => <Flex
     justify="between"
     align="center"
     p="4"
-    style={{ borderBottom: '2px solid #3C3260' }}
+    className={styles.bar}
 >
     {/* Logo */}
     <Text size="5" weight="bold">
-        <Link href="/">Symbiot </Link>
+        <Link href="/public">Symbiot </Link>
     </Text>
 
     {/* Menu */}
@@ -37,10 +38,11 @@ const Navbar: () => ReactElement = () => <Flex
 const NavButton: (_: {
     href: string,
     children: ReactNode
-}) => ReactElement = (props) => <Link size='6' style={{
-    fontFamily: 'Alumni Sans Pinstripe',
-    fontWeight: 'bold'
-}} href={props.href}> {props.children} </Link>
+}) => ReactElement = (props) => <Link
+    size='5'
+    className={styles.navButton}
+    href={props.href}
+> {props.children} </Link>
 
 const Divider: () => ReactElement = () => <Text color='gray'>|</Text>
 
