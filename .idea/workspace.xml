@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fffd23d8-ed9f-4de9-8fdd-c04310e886a7" name="Changes" comment="initial">
+      <change beforePath="$PROJECT_DIR$/symbiot-it-landing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symbiot-it-landing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbiot-it-landing/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/symbiot-it-landing/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbiot-it-landing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/symbiot-it-landing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbiot-it-landing/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/symbiot-it-landing/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbiot-it-landing/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/symbiot-it-landing/src/App.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/symbiot-it-landing" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2wfeWORs1vkMexPhtGpSEPQN4ld" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.symbiot-it-landing/Dockerfile.executor": "Run",
+    "Node.js.App.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/januf/Projects/subtitles_editor",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\januf\\symbiot.it\\landing-page\\symbiot-it-landing\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\januf\symbiot.it\landing-page\symbiot-it-landing\src\radix-custom-palette" />
+      <recent name="C:\Users\januf\symbiot.it\landing-page\symbiot-it-landing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="App.tsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/symbiot-it-landing/src/App.tsx" working-dir="$PROJECT_DIR$/symbiot-it-landing/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="symbiot-it-landing/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="symbiot-it-landing/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/symbiot-it-landing/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.symbiot-it-landing/Dockerfile" />
+      <item itemvalue="Node.js.App.tsx" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.symbiot-it-landing/Dockerfile" />
+        <item itemvalue="Node.js.App.tsx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fffd23d8-ed9f-4de9-8fdd-c04310e886a7" name="Changes" comment="" />
+      <created>1746437088530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746437088530</updated>
+      <workItem from="1746437090096" duration="13346000" />
+      <workItem from="1746466108445" duration="3784000" />
+      <workItem from="1746524317895" duration="873000" />
+      <workItem from="1746623549538" duration="3348000" />
+      <workItem from="1746871480473" duration="5568000" />
+      <workItem from="1746877263524" duration="123000" />
+      <workItem from="1746969626636" duration="1379000" />
+      <workItem from="1747036992895" duration="163000" />
+      <workItem from="1747481684327" duration="1482000" />
+      <workItem from="1748849227385" duration="331000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1746441265774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746441265774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
+</project>
