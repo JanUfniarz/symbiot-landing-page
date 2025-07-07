@@ -1,0 +1,28 @@
+.missionContainer {
+    padding: 1rem 1rem;
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.missionTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: var(--accent-11);
+}
+
+.missionParagraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--gray-11);
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: var(--gray-5);
+    margin: 4rem auto;
+    width: 80%;
+    max-width: 1000px;
+}
