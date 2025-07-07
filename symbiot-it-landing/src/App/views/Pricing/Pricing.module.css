@@ -1,13 +1,13 @@
 .introContainer {
     text-align: center;
-    margin: 2rem auto;
-    padding: 1rem;
+    margin: 0.4rem auto;
+    padding: 0.4rem;
     max-width: 600px;
     border-radius: 8px;
 }
 
 .introText {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     line-height: 1.6;
     color: var(--gray-11);
 }
