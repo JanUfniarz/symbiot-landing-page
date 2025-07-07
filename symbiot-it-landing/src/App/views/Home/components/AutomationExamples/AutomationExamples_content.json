@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Automatyczne fakturowanie",
+    "description": "System AI, który automatycznie generuje i wysyła faktury na podstawie danych sprzedażowych.",
+    "image_placeholder": "path/to/image1.jpg"
+  },
+  {
+    "title": "Inteligentna obsługa klienta",
+    "description": "Chatbot AI, który odpowiada na najczęstsze pytania klientów 24/7.",
+    "image_placeholder": "path/to/image2.jpg"
+  },
+  {
+    "title": "Zarządzanie mediami społecznościowymi",
+    "description": "Narzędzie AI do planowania i publikowania postów w mediach społecznościowych.",
+    "image_placeholder": "path/to/image3.jpg"
+  },
+  {
+    "title": "Analiza danych sprzedażowych",
+    "description": "Platforma AI, która analizuje dane sprzedażowe i generuje raporty z rekomendacjami.",
+    "image_placeholder": "path/to/image4.jpg"
+  },
+  {
+    "title": "Automatyzacja rekrutacji",
+    "description": "System AI, który przegląda CV i wybiera najlepszych kandydatów na dane stanowisko.",
+    "image_placeholder": "path/to/image5.jpg"
+  }
+]
