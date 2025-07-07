@@ -11,15 +11,15 @@ const Navbar: () => ReactElement = () => <Flex
 >
     {/* Logo */}
     <Text size="5" weight="bold">
-        <Link href="/public">Symbiot </Link>
+        <Link href="/">Symbiot </Link>
     </Text>
 
     {/* Menu */}
     <Flex gap="4" align="center">
-        <NavButton href="/"> Platforma </NavButton> <Divider/>
+        <NavButton href="/platforma"> Platforma </NavButton> <Divider/>
         <NavButton href="/wycena"> Wycena </NavButton> <Divider/>
-        <NavButton href="/"> SymDolce </NavButton> <Divider/>
-        <NavButton href="/"> Kontakt </NavButton> <Divider/>
+        <NavButton href="/symdolce"> SymDolce </NavButton> <Divider/>
+        <NavButton href="/kontakt"> Kontakt </NavButton> <Divider/>
 
         <DropdownMenu.Root>
             <DropdownMenu.Trigger>

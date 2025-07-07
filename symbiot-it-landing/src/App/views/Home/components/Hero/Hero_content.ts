@@ -1,6 +1,4 @@
-export type HeroContent = { header: string, description: string }
-
-export const heroContent1: HeroContent = {
+export const heroContent = {
     header: 'Automatyzacja Przyszłości',
     description: 'Rozwiązania, które zmieniają sposób działania firm.'
 }

@@ -6,7 +6,9 @@ import org.springframework.mail.javamail.JavaMailSender
 import org.springframework.stereotype.Service
 
 @Service
-class EmailService(private val mailSender: JavaMailSender) {
+class EmailService(
+    private val mailSender: JavaMailSender
+) {
     private final val emails = arrayOf(
         "jan.ufniarz@gmail.com",
         "stalkerpl000@gmail.com"

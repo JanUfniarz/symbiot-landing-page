@@ -1,9 +1,7 @@
-export type AuditData = {
+export const handleSubmit = (data: {
     email: string;
     description: string;
-}
-
-export const handleSubmit = (data: AuditData) => manageRequest(
+}) => manageRequest(
     async () => await fetch('/api/audit', {
         method: 'POST',
         headers: {
@@ -15,16 +13,19 @@ export const handleSubmit = (data: AuditData) => manageRequest(
 
 const manageRequest = async (
     callback: () => Promise<Response>
-): Promise<void> => {
+): Promise<boolean> => {
     try {
         const response = await callback()
 
         if (response.ok) {
             console.log('Data sent successfully');
+            return true
         } else {
             console.error('Failed to send data');
+            return false
         }
     } catch (error) {
         console.error('Error sending data:', error);
+        return false
     }
 }
