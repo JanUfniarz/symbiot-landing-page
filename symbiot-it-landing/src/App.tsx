@@ -7,9 +7,10 @@ import './radix-custom-palette/accent.css'
 import './radix-custom-palette/gray.css'
 import './radix-custom-palette/background.css'
 
-import Navbar from "./App/Navbar/Navbar";
+import Navbar from "./App/components/Navbar/Navbar";
 import Home from "./App/views/Home/Home";
 import Pricing from "./App/views/Pricing/Pricing";
+import Footer from "./App/components/Footer/Footer";
 
 
 const App = () => <BrowserRouter><Theme
@@ -23,6 +24,7 @@ const App = () => <BrowserRouter><Theme
         <Route path="/" element={<Home/>} />
         <Route path="/wycena" element={<Pricing/>} />
     </Routes>
+    <Footer />
 
 
 </Theme></BrowserRouter>

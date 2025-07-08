@@ -9,6 +9,7 @@ const Pricing = () => <>
         <p className={styles.introText}>{content.intro}</p>
     </div>
     <AuditForm/>
+    <br/>
 </>
 
 export default Pricing;
