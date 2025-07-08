@@ -17,9 +17,10 @@
 }
 
 .solutionCard {
-    background-color: var(--gray-5);
+    background-color: var(--gray-2);
     padding: 2rem;
     border-radius: 8px;
+    border: 1px solid var(--green-6);
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;

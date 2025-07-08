@@ -21,7 +21,7 @@
 .divider {
     border: 0;
     height: 1px;
-    background-color: var(--gray-5);
+    background-color: var(--green-6);
     margin: 4rem auto;
     width: 80%;
     max-width: 1000px;
