@@ -1,0 +1,19 @@
+{
+  "title": "Poznaj nasz zespół",
+  "members": [
+    {
+      "name": "Jan Ufniarz",
+      "title": "Co-Founder & Automations Architect",
+      "description": "Pasjonat technologii i optymalizacji procesów. Od lat z powodzeniem wdraża rozwiązania, które oszczędzają czas i pieniądze klientów, pozwalając im skupić się na tym, co najważniejsze – rozwoju biznesu.",
+      "image_src": "/assets/images/jan_kowalski.jpg",
+      "image_alt": "Jan Ufniarz"
+    },
+    {
+      "name": "Mikołaj Kowal",
+      "title": "Co-Founder & Business Relations",
+      "description": "Ekspert w budowaniu relacji i rozumieniu potrzeb biznesowych. Dba o to, by każde wdrożenie było idealnie dopasowane do klienta i przynosiło realne, mierzalne korzyści. To on jest Twoim pierwszym kontaktem.",
+      "image_src": "/assets/images/piotr_nowak.jpg",
+      "image_alt": "Mikołaj Kowal"
+    }
+  ]
+}
