@@ -1,0 +1,33 @@
+.header {
+    color: var(--green-9);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.header:hover {
+    cursor: pointer;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    background: radial-gradient(circle at var(--x) var(--y), var(--green-4), transparent 80px);
+    opacity: 0;
+    transition: opacity 0.2s;
+    border-radius: 25px;
+}
+
+.header:hover::before {
+    opacity: 1;
+}
+
+.header > span {
+    position: relative;
+    z-index: 1;
+}
