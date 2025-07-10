@@ -1,11 +1,11 @@
-.missionContainer {
+.container {
     padding: 1rem 1rem;
     text-align: left;
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.missionParagraph {
+.paragraph {
     font-size: 1.2rem;
     line-height: 1.6;
     color: var(--gray-11);

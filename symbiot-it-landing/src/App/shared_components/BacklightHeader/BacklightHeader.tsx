@@ -6,6 +6,7 @@ import handleMouseMove from "./BacklightHeader_logic";
 interface BacklightHeaderProps {
     children?: React.ReactNode
 }
+
 const BacklightHeader: React.FC<BacklightHeaderProps> = (
     {children }
 ) => {

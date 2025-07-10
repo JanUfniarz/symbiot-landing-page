@@ -1,16 +1,16 @@
-.solutionsSection {
+.section {
     padding: 4rem 2rem;
     text-align: center;
 }
 
-.solutionsContainer {
+.container {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
-.solutionCard {
+.card {
     background-color: var(--gray-2);
     padding: 2rem;
     border-radius: 8px;
@@ -20,16 +20,16 @@
     transition: transform 0.3s ease-in-out;
 }
 
-.solutionCard:hover {
+.card:hover {
     transform: scale(1.05);
 }
 
-.solutionCard h3 {
+.card h3 {
     color: var(--green-9);
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.solutionCard p {
+.card p {
     font-size: 1rem;
 }

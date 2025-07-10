@@ -5,9 +5,9 @@ import BacklightHeader from "../../../../shared_components/BacklightHeader/Backl
 
 const Mission = () => <>
     <hr className={styles.divider} />
-    <section className={styles.missionContainer}>
+    <section className={styles.container}>
         <BacklightHeader>{content.title}</BacklightHeader>
-        <p className={styles.missionParagraph}>{content.paragraph}</p>
+        <p className={styles.paragraph}>{content.paragraph}</p>
     </section>
     <hr className={styles.divider} />
 </>
