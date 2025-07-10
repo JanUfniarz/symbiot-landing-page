@@ -12,4 +12,4 @@ const Pricing = () => <>
     <br/>
 </>
 
-export default Pricing;
+export default Pricing

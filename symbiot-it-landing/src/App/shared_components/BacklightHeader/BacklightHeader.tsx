@@ -3,12 +3,10 @@ import React, {useRef} from "react";
 import styles from "./BacklightHeader.module.css"
 import handleMouseMove from "./BacklightHeader_logic";
 
-interface BacklightHeaderProps {
+const BacklightHeader: React.FC<{
     children?: React.ReactNode
-}
-
-const BacklightHeader: React.FC<BacklightHeaderProps> = (
-    {children }
+}> = (
+    {children}
 ) => {
     const headerRef = useRef<HTMLHeadingElement>(null);
 
