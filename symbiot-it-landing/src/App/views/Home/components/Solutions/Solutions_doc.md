@@ -1,6 +1,6 @@
 # Solutions
 
-Sekcja "Nasza Oferta".
+Sekcja "Nasza Oferta". Grid kart.
 
 ---
 

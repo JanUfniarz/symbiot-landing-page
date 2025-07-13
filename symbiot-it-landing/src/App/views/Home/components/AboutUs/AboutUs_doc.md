@@ -1,6 +1,6 @@
 # AboutUs
 
-Sekcja "O nas", przedstawiająca zespół.
+Sekcja "O nas", przedstawiająca zespół. Dwie sekcje ze zdjęciem i opisem. 
 
 ---
 

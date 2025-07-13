@@ -1,30 +1,30 @@
 {
-  "header": "Przykłady automatyzacji AI",
+  "header": "Przykłady automatyzacji",
   "examples": [
     {
-      "title": "Automatyczne fakturowanie",
-      "description": "System AI, który automatycznie generuje i wysyła faktury na podstawie danych sprzedażowych.",
-      "image_placeholder": "path/to/image1.jpg"
+      "title": "Automatyczna obsługa zapytań klientów",
+      "description": "System agentowy analizuje wiadomości przychodzące przez e-mail i formularze, odpowiada automatycznie lub przekazuje sprawy do odpowiedniego działu.",
+      "image_placeholder": "/images/examples/customer-support.png"
     },
     {
-      "title": "Inteligentna obsługa klienta",
-      "description": "Chatbot AI, który odpowiada na najczęstsze pytania klientów 24/7.",
-      "image_placeholder": "path/to/image2.jpg"
+      "title": "Inteligentna analiza dokumentów",
+      "description": "Agent AI przetwarza faktury, umowy i raporty, automatycznie wyciągając kluczowe dane i zapisując je do bazy danych lub systemu ERP.",
+      "image_placeholder": "/images/examples/document-analysis.png"
     },
     {
-      "title": "Zarządzanie mediami społecznościowymi",
-      "description": "Narzędzie AI do planowania i publikowania postów w mediach społecznościowych.",
-      "image_placeholder": "path/to/image3.jpg"
+      "title": "Automatyczne raportowanie sprzedaży",
+      "description": "Codziennie generowane są raporty na podstawie danych z różnych źródeł — systemów sprzedażowych, CRM i arkuszy. Wszystko bez udziału człowieka.",
+      "image_placeholder": "/images/examples/sales-reporting.png"
     },
     {
-      "title": "Analiza danych sprzedażowych",
-      "description": "Platforma AI, która analizuje dane sprzedażowe i generuje raporty z rekomendacjami.",
-      "image_placeholder": "path/to/image4.jpg"
+      "title": "Personalizowane kampanie e-mailowe",
+      "description": "System analizuje zachowania klientów i automatycznie tworzy i wysyła spersonalizowane kampanie marketingowe.",
+      "image_placeholder": "/images/examples/email-campaign.png"
     },
     {
-      "title": "Automatyzacja rekrutacji",
-      "description": "System AI, który przegląda CV i wybiera najlepszych kandydatów na dane stanowisko.",
-      "image_placeholder": "path/to/image5.jpg"
+      "title": "Monitoring i alerty operacyjne",
+      "description": "Agenci analizują dane operacyjne w czasie rzeczywistym i informują zespół o odchyleniach, błędach lub istotnych zmianach.",
+      "image_placeholder": "/images/examples/operational-alerts.png"
     }
   ]
 }

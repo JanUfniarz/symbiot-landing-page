@@ -3,15 +3,15 @@
   "members": [
     {
       "name": "Jan Ufniarz",
-      "title": "Co-Founder & Automations Architect",
-      "description": "Pasjonat technologii i optymalizacji procesów. Od lat z powodzeniem wdraża rozwiązania, które oszczędzają czas i pieniądze klientów, pozwalając im skupić się na tym, co najważniejsze – rozwoju biznesu.",
+      "title": "Fullstack & Automatyzacje AI",
+      "description": "Odpowiadam za projektowanie i budowę modułowych systemów AI od strony architektury, backendu i integracji z narzędziami klienta. Łączę technologię z realnymi potrzebami firm, dbając o to, aby każde rozwiązanie było skalowalne, elastyczne i zrozumiałe dla użytkownika.",
       "image_src": "/assets/images/jan_kowalski.jpg",
       "image_alt": "Jan Ufniarz"
     },
     {
       "name": "Mikołaj Kowal",
-      "title": "Co-Founder & Business Relations",
-      "description": "Ekspert w budowaniu relacji i rozumieniu potrzeb biznesowych. Dba o to, by każde wdrożenie było idealnie dopasowane do klienta i przynosiło realne, mierzalne korzyści. To on jest Twoim pierwszym kontaktem.",
+      "title": "Machine Learning & Modele AI",
+      "description": "Specjalizuję się w tworzeniu modeli uczenia maszynowego dopasowanych do konkretnych przypadków biznesowych. Od analizy danych, przez trenowanie modeli, aż po ich integrację z agentami – moim celem jest budowanie systemów, które uczą się i współpracują, tworząc nową jakość dzięki emergencji.",
       "image_src": "/assets/images/piotr_nowak.jpg",
       "image_alt": "Mikołaj Kowal"
     }

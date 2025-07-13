@@ -1,25 +1,29 @@
 {
-    "header": "Nasza Oferta",
+    "header": "Nasza oferta",
     "solutions": [
         {
-            "title": "Audyty i Doradztwo",
-            "description": "Przeprowadzamy kompleksowe audyty bezpieczeństwa i oferujemy doradztwo w zakresie optymalizacji infrastruktury IT."
+            "title": "Systemy agentowe na zamówienie",
+            "description": "Projektujemy i wdrażamy systemy złożone z wielu współpracujących agentów AI, które automatyzują procesy w Twojej firmie — od obsługi klienta, przez analizę danych, aż po zarządzanie operacjami."
         },
         {
-            "title": "Rozwój Oprogramowania",
-            "description": "Tworzymy dedykowane aplikacje webowe i mobilne, dostosowane do indywidualnych potrzeb Twojego biznesu."
+            "title": "Modułowe komponenty AI",
+            "description": "Budujemy nasze rozwiązania z gotowych, uniwersalnych modułów, które można szybko dostosować do specyficznych potrzeb każdego klienta. To elastyczność, która rośnie razem z Twoim biznesem."
         },
         {
-            "title": "Zarządzanie Chmurą",
-            "description": "Pomagamy w migracji do chmury oraz zarządzaniu zasobami, zapewniając skalowalność i bezpieczeństwo."
+            "title": "Integracje z narzędziami i bazami danych",
+            "description": "Łączymy nasze systemy z Twoim środowiskiem pracy — CRM, ERP, arkuszami, API i bazami danych — tak, aby automatyzacja była naprawdę kompletna."
         },
         {
-            "title": "Wsparcie Techniczne",
-            "description": "Oferujemy stałe wsparcie techniczne i utrzymanie systemów, gwarantując ciągłość działania Twojej firmy."
+            "title": "Własne modele AI",
+            "description": "W sytuacjach, gdy gotowe modele to za mało, tworzymy autorskie rozwiązania oparte na uczeniu maszynowym, trenowane na danych klienta lub danych syntetycznych."
         },
         {
-            "title": "Wsparcie Techniczne",
-            "description": "Oferujemy stałe wsparcie techniczne i utrzymanie systemów, gwarantując ciągłość działania Twojej firmy."
+            "title": "Emergencja w praktyce",
+            "description": "Nasze systemy nie tylko wykonują zadania — dzięki współpracy agentów i modułów pojawiają się nowe, nieoczywiste możliwości. To złożone zachowania, które wyłaniają się z prostych komponentów."
+        },
+        {
+            "title": "Konsultacje i wsparcie techniczne",
+            "description": "Zapewniamy kompleksowe doradztwo na każdym etapie współpracy — od analizy potrzeb, przez projektowanie rozwiązania, aż po jego wdrożenie i rozwój. Z nami nie zostajesz sam z technologią."
         }
     ]
 }

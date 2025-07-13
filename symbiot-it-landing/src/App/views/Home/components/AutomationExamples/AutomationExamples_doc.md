@@ -1,6 +1,6 @@
 # AutomationExamples
 
-Sekcja z przykładami automatyzacji AI.
+Sekcja z przykładami automatyzacji AI. Horyzontalna galeria kart z grafiką i treścią
 
 ---
 

@@ -1,6 +1,6 @@
 # Mission
 
-Sekcja "Nasza misja".
+Sekcja "Nasza misja". Jest to prosty akapit z nagłówkiem i treścią
 
 ---
 
