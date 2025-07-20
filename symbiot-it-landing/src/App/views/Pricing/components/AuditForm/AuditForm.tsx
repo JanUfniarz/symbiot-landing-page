@@ -8,36 +8,42 @@ const AuditForm = () => {
   const [description, setDescription] = useState("")
   const [isSuccess, setIsSuccess] = useState(false)
 
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    handleSubmit({email, description})
+        .then(value => setIsSuccess(value))
+    setEmail("")
+    setDescription("")
+  }
+
+  const EmailInput = () => <div className={styles.formGroup}>
+    <label htmlFor="email" className={styles.label}>Email</label>
+    <input
+        type="email"
+        id="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        required
+        className={styles.input}
+    />
+  </div>
+
+  const DescriptionInput = () => <div className={styles.formGroup}>
+    <label htmlFor="description" className={styles.label}>Opis Problemu</label>
+    <textarea
+        id="description"
+        value={description}
+        onChange={(e) => setDescription(e.target.value)}
+        required
+        className={styles.textarea}
+    />
+  </div>
+
   return <div className={styles.wycenaContainer}>
     <h2 className={styles.h2}>Wycena</h2>
-    <form className={styles.form} onSubmit={(e) => {
-      e.preventDefault();
-      handleSubmit({email, description})
-          .then(value => setIsSuccess(value))
-      setEmail("")
-      setDescription("")
-    }}>
-      <div className={styles.formGroup}>
-        <label htmlFor="email" className={styles.label}>Email</label>
-        <input
-          type="email"
-          id="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-          className={styles.input}
-        />
-      </div>
-      <div className={styles.formGroup}>
-        <label htmlFor="description" className={styles.label}>Opis Problemu</label>
-        <textarea
-          id="description"
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-          required
-          className={styles.textarea}
-        />
-      </div>
+    <form className={styles.form} onSubmit={onSubmit}>
+      <EmailInput/>
+      <DescriptionInput/>
       {
         isSuccess && <Text color='green' size='6'>
             Wysłano pomyślnie!
@@ -46,6 +52,8 @@ const AuditForm = () => {
       <button type="submit" className={styles.button}>Wyślij</button>
     </form>
   </div>
-};
+}
 
-export default AuditForm;
+
+
+export default AuditForm
